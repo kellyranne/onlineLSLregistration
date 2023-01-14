@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table 1</title>
+        <style>
+            Table,tr,th,td{
+                border-width: 1px;
+                border-color:black;
+                border-style: solid;
+            }
+            caption{
+                text-align: left;
+                caption-side: top;
+            }
+            thead{
+                background-color: blueviolet;
+            }
+            tfoot{
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <table>
+            <caption>Caption</caption>
+            <thead>
+            <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                <td colspan="4">Demo Row</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </body>
+
+</html>

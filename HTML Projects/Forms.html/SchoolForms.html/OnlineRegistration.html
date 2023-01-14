@@ -1,0 +1,172 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="C:\Users\ranne rivera\Documents\HTML Projects\Forms.html\286896766_2314493712047248_4176768414075278566_n (1).png">
+    <style>
+    form{
+        background-color: lightblue;
+        text-indent: 2cm;
+        font-size: medium;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:black
+    }h1, h2, h5, h6, h7{
+        border: 5px;
+        border: solid;
+        border-color: gold;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    input[type=text],select{
+        width: 70%p; background-color: navy; color:white;
+        padding: 14px 20px; margin: 8px 0; border: none;
+        border-radius: 4px; cursor: pointer;
+    }
+    input[type=paswoord],select{
+        width: 70%; padding: 12px 20px; margin: 8px 0;
+        display: inline-block; margin: 8px 0; border: none;
+        border-radius: 4px; box-sizing: border-box;
+    }
+    input[type=submit]{
+        width: 50%; background-color: navy; color: white;
+        border-radius: 4px; cursor: pointer;
+        padding: 14px 20px; margin: 8px 0; border:none
+    } 
+    input[type=submit]:hover{
+        background-color: gree; color: white;
+    }
+    input[type=tel]{
+        width: 20%; background-color: navy; color: white;
+        border-radius: 4px; cursor: pointer;
+        padding: 14px 20px; margin: 8px 0; border:none
+    }
+    input[type=search]{
+        width: 20%; background-color: navy; color: yellow;
+        padding: 14px 20px; margin: 8px 0; border: none;
+    }
+    input[type=date]{
+        width: 20%; background-color: navy; color: yellow;
+        padding: 14px 20px; margin: 8px 0; border: none;
+    }
+    input[type=button], input[type=submit]{
+        width: 50%; background-color: navy; color: white;
+        border-radius: 4px; cursor: pointer;
+        padding: 14px 20px; margin: 8px 0; border:none
+    }
+    label{
+        text-align: justify; font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-emphasis-color: black ;
+        font-size: large;
+    }
+    aside{
+    float:right;
+    text-align: justify; color: black;
+    padding: 14px 20px; margin: 8px 0; border-radius: 10px;
+    }
+    header{
+        text-align: center;
+    }
+        </style>
+    </head>
+
+    <body>
+        <form action="https://formspree.io/f/mvoywnva" method="POST">
+        <p align=center><img src="C:\Users\ranne rivera\Documents\HTML Projects\Forms.html\286896766_2314493712047248_4176768414075278566_n (1).png" width="150"><br></p>
+            <h2>Lyceum of Southern Luzon Inc.</h2>
+            <header><p><b><h3>Student Registration Form</h3></b></p></header>
+            <h4><p>Fill out the form carefully for Registration.</p></h4>
+            <label for="sname"><b>Student Name</b></label><br>
+        <aside>
+            <fieldset>
+                <legend><b>ASSESSMENT</b></legend>
+                <label for="TuitionFee">Tuition Fee:</label>
+                <input type="text" name="TuitionFee" id="TuitionFee"><br><br>
+                <label for="LaboratoryFee">Laboratory Fee:</label>
+                <input type="text" name="LaboratoryFee" id="LaboratoryFee"><br><br>
+                <label for="MiscFee">Misc. Fee:</label>
+                <input type="text" name="MiscFee" id="MiscFee"><br><br>
+                <label for="Insurance">Insurance:</label>
+                <input type="text" name="Insurance" id="Insurance"><br><br>
+                <label for="InternetFee">Internet Fee:</label>
+                <input type="text" name="InternetFee" id="InternetFee"><br><br>
+                <label for="InstallmentCharge">Installment Charge:</label>
+                <input type="text" name="InstallmentCharge" id="InstallmentCharge"><br><br>
+                <label for="Total">Total:</label>
+                <input type="text" name="Total" id="Total"><br><br>
+                <label for="Cash">Cash:</label>
+                <input type="text" name="Cash" id="Cash"><br><br>
+                <label for="Installment">Installment:</label>
+                <input type="text" name="Installment" id="Installment"><br><br>
+                <label for="Assessed">Assessed By:</label>
+                <input type="text" name="Assessed" id="Assessed"><br><br>
+            </fieldset>
+        </aside>
+        
+            <label for="LRN">LRN</label>
+            <input type="text" id="LRN" name="LRN"><br><br>
+            <label for="name"><b>NAME:</b></label>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname">
+            <label for="middlename">Middle Name</label>
+            <input type="text" id="middlename" name="middlename"><br>
+            <label for="sex"><b>Sex:</b></label>
+            <label for="sex"><small>Female</small></label>
+            <input type=radio id="sex" name="sex">
+            <label for="sex"><small>Male</small></label>
+            <input type=radio id="sex" name="sex">
+            <label for="cstatus"><b>Civil Status:</b></label>
+            <label for="single"><small>Single</small></label>
+            <input type=radio id="single" name="single">
+            <label for="married"><small>Married</small></label>
+            <input type=radio id="married" name="single"><br>
+            <label for="Paddress"><small>Permanent Address</small></label>
+            <input type="text" id="Paddress" name="Paddress"><br><br>
+            <label for="Taddress"><small>Temporary Address</small></label>
+            <input type="text" id="Taddress" name="Taddress"><br><br>
+            <small><label for="tnumber">Telephone Number</label>
+            <input type="tel" id="tnumber" name="tnumber"></small>
+            <label for="bday">Birthday</label>
+            <input style =width:150px type="date" id="bday" name="bday">
+            <label for="bplace">Birthplace</label>
+            <input type="search" id="bplace" name="bplace"><br><br>
+            <legend><b>Parents</b></legend>
+            <label for="fname">Father:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="occupation">Occupation</label>
+            <input type="text" id="occupatione" name="occupation"><br><br>
+            <label for="mname">Mother:</label>
+            <input type="text" id="mname" name="mname"><br><br>
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupatione" name="occupation"><br><br>
+            <label for="guardian">Guardian</label>
+            <input type="text" id="guardian" name="guardian">
+            <label for="relationship">Relationship</label>
+            <input type="text" id="relationship" name="relationship">
+            <label for="Address">Address</label>
+            <input type="text" id="Address" name="Address">
+            <label for="tel">Telephone</label>
+            <input type="text" id="tel" name="tel"><br><br>
+            <label for="elem">Elementary School where graduated:</label>
+            <input type="text" id="elem" name="elem">
+            <label for="g10">Grade 10 Completed at:</label>
+            <input type="text" id="g10" name="g10">
+            <label for="completed">Year Completed</label>
+            <input type="text" id="completed" name="completed"><br>
+            <label for="CTS"><b>Credentials to Submir:</b></label>
+            <label for="CTS">F138 High School</label>
+            <input type="checkbox" name="CTS" id="CTS">
+            <label for="CTS">Good Moral Certificate</label>
+            <input type="checkbox" name="CTS" id="CTS">
+            <label for="CTS">F137</label>
+            <input type="checkbox" name="CTS" id="CTS">
+            <label for="CTS">JHS Diploma</label>
+            <input type="checkbox" name="CTS" id="CTS">
+            <label for="CTS">Birth Certificate</label>
+            <input type="checkbox" name="CTS" id="CTS"><br><br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+
+    </body>
+</html>

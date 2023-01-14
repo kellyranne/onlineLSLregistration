@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>School Forms</title>
+    </head>
+
+    <body>
+        <form action="result.html" method="GET" enctype="multipart/form-data">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div><br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div><br>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" min="1"  max="200" step="1">
+            </div><br>
+            <div>
+                <label for="date">Birthdate</label>
+                <input type="date" name="date" id="date" min="2050">
+            </div>
+            <div>
+                Favorite Food
+            <div>
+                <label for="burger">Burger</label>
+                <input type="radio" name="burger" id="burger">
+            </div>
+            <div>
+                <label for="Pizza">Pizza</label>
+                <input type="radio" name="pizza" id="pizza">
+            </div><br>
+            <div>
+                Gender
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div><br>
+            <div>
+                <label for="eyeColor">Eye Color</label>
+                <select name="eyeColor" id="eyeColor">
+                    <option value="Green">Green</option>
+                    <option value="Red">Red</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="bio">Bio</label>
+                <textarea id="bio" name="bio"></textarea>
+            </div><br>
+                <input type="hidden" name="hidden" value="hi">
+            <div>
+                <label for="file">File</label>
+                <input id="file" type="file" name="file">
+            </div><br>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone">
+            </div><br>
+            <div>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url">
+            </div><br>
+            <div>
+                <label for="color">Color</label>
+                <input type="color" name="color" id="color">
+            </div><br>
+                <label>
+                    Password
+                <input name="password">
+                </label> 
+            </div><br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
